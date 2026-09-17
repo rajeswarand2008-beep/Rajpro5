@@ -1,17 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CSS3 Multi-Column Layout</title>
+    <title>CSS3 Column Features</title>
 
-<style>
-/* Write the CSS required for this page here */
-</style>
+    <style>
+        .content {
+            column-count: 3;
+            column-gap: 30px;
+            column-rule: 2px solid blue;
+            padding: 20px;
+            background-color: lightyellow;
+        }
 
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        h2 {
+            color: green;
+        }
+    </style>
 </head>
 
 <body>
-/* Design the page for 3 column web page here */
+
+    <h1>CSS3 Column Features</h1>
+
+    <div class="content">
+
+        <h2>HTML</h2>
+        <p>
+            HTML stands for HyperText Markup Language.
+            It is used to create and structure web pages.
+            HTML provides various elements such as headings,
+            paragraphs, images, links, tables and forms.
+        </p>
+
+        <h2>CSS</h2>
+        <p>
+            CSS stands for Cascading Style Sheets.
+            It is used to style HTML elements.
+            CSS can change colors, fonts, spacing,
+            borders and the layout of a webpage.
+        </p>
+
+        <h2>CSS3 Columns</h2>
+        <p>
+            CSS3 provides column features that allow text
+            to be displayed in multiple columns.
+            The column-count property specifies the number
+            of columns, while column-gap controls the space
+            between columns.
+        </p>
+
+        <h2>Web Design</h2>
+        <p>
+            Web design involves creating attractive,
+            user-friendly and responsive websites.
+            HTML is used for structure and CSS is used
+            for presentation and layout.
+        </p>
+
+    </div>
+
 </body>
 </html>
